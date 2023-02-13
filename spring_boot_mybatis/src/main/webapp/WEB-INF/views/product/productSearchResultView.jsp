@@ -53,7 +53,7 @@
 					               <td>${prd.prdCompany }</td>
 					               <td>${prd.prdStock }</td>			               
 					               <td><fmt:formatDate value="${prd.prdDate}"  pattern="yyyy-MM-dd" /></td>
-					               <td><img src="<c:url value='/images/${prd.prdNo}.PNG' />" width="30" height="20"></td>			               
+					               <td><img src="<c:url value='/images/${prd.prdNo}.png' />" width="30" height="20"></td>			               
 					            </tr>
 					         </c:forEach>
 			         </c:otherwise>
